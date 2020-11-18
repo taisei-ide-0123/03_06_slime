@@ -1,6 +1,6 @@
 # slime
 
-
+https://taisei-ide-0123.github.io/03_06_slime/index.html
 
 ## スライムを倒すゲーム
 

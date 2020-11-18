@@ -476,15 +476,13 @@ $('#escape').hover(function () {
   });
 //にげるをクリック
 $('.escape').click(function () {
-  $('p').html('<p>ゆうしゃたちはにげだした！<br>しかしまわりこまれてしまった！</p>');
-});
-
-$('#escape').click(function () {
   $('#janken').addClass('janken');
-});
-
-$('#escape').click(function () {
   $('#herbs').addClass('herbs');
+  $('p').html('<p>ゆうしゃたちはにげだした！<br>しかしまわりこまれてしまった！</p>');
+  const runAway = Math.floor(Math.random() * 4);
+  if (runAway == 1) {
+    history.back();
+  }
 });
 
 //ぼうぎょにカーソルを乗せる
