@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>slime</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="form">
+    <div class="user_info">
+      <p>名前を入力してください</p>
+      <div class="user_name">
+        <input type="text" maxlength="4" id="input">
+        <div id="save">→</div>
+      </div>
+    </div>
+  </div>
+  <div class="battle_scene">
+    <div class="yusha" id="yusha">
+      <div class="yusha_name" id="yusha_name">aaa</div>
+      <div class="lv">
+        <dl>
+          <dt>Lv</dt>
+          <dd id="lv">1</dd>
+        </dl>
+      </div>
+      <div class="hp">
+        <dl>
+          <dt>HP</dt>
+          <dd class="remainingHP" id="remainingHP">10</dd>
+        </dl>
+      </div>
+      <div class="mp">
+        <dl>
+          <dt>MP</dt>
+          <dd>6</dd>
+        </dl>
+      </div>
+    </div>
+    <div class="slime">
+      <div class="name">スライム</div>
+      <div class="hp">
+        <dl>
+          <dt>HP</dt>
+          <dd class="slimeHP" id="slimeHP">8</dd>
+        </dl>
+      </div>
+    </div>
+    <div class="monster">
+      <div id="hand">ジャンケン</div>
+      <img src="img/slime.png" alt="">
+    </div>
+    <div class="beneath">
+      <div class="command">
+        <div class="battle" id="battle">たたかう</div>
+        <div class="escape" id="escape">にげる</div>
+        <div class="defense" id="defense">ぼうぎょ</div>
+        <div class="tool" id="tool">どうぐ</div>
+      </div>
+      <div class="janken" id="janken">
+        <div class="gu" id="gu">グー</div>
+        <div class="cho" id="cho">チョキ</div>
+        <div class="par" id="par">パー</div>
+        <div class="arrow1" id="arrow1">←</div>
+      </div>
+      <div class="herbs" id="herbs">
+        <div class="herb1" id="herb1">やくそう</div>
+        <div class="herb2" id="herb2">やくそう</div>
+        <div class="herb3" id="herb3">やくそう</div>
+        <div class="arrow2" id="arrow2">←</div>
+      </div>
+      <div class="text">
+        <p>スライムがあらわれた！</p>
+      </div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

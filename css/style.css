@@ -1,0 +1,242 @@
+body {
+  background-color: #000;
+}
+
+.form {
+  width: 100%;
+  height: 1000px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user_info {
+  border: solid;
+  border-color: #fff;
+  color: #fff;
+  border-radius: 5px;
+  width: 250px;
+  height: 120px;
+}
+
+.user_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#input {
+  background-color: #000;
+  border: solid;
+  border-color: #fff;
+  color: #fff;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+}
+
+#save {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #000;
+  border: solid;
+  border-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.battle_scene {
+  display: none;
+}
+
+/* 仲間 */
+.yusha {
+  border: solid;
+  border-color: #fff;
+  color: #fff;
+  border-radius: 5px;
+  width: 200px;
+  height: 280px;
+  font-size: 40px;
+  position: fixed;
+  left: 18%;
+}
+
+.yusha dl {
+  width: 160px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.yusha_name {
+  text-align: center;
+}
+
+.lv {
+  padding-top: 25px;
+}
+
+dt {
+  width: 50%;
+}
+
+dd {
+  width: 50%;
+  text-align: right;
+  margin: 0;
+}
+
+.name {
+  text-align: center;
+}
+
+/* モンスター */
+.monster {
+  position: fixed;
+  top: 10%;
+  left: 37%;
+}
+
+#hand {
+  font-size: 50px;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.monster img {
+  width: 400px;
+  height: 400px;
+}
+
+/* スライムHP */
+.slime {
+  border: solid;
+  border-color: #fff;
+  color: #fff;
+  border-radius: 5px;
+  width: 200px;
+  height: 140px;
+  font-size: 40px;
+  position: fixed;
+  top: 1%;
+  left: 65%;
+}
+
+.slime dl {
+  width: 160px;
+  display: flex;
+  margin: 0 auto;
+}
+
+/* 下部 */
+.beneath {
+  position: fixed;
+  top: 60%;
+  left: 18%;
+  display: flex;
+}
+
+/* 戦闘コマンド */
+.command {
+  border: solid;
+  border-color: #fff;
+  color: #fff;
+  border-radius: 5px;
+  width: 200px;
+  height: 280px;
+  font-size: 40px;
+}
+
+.battle {
+  padding: 5px 20px;
+}
+
+.escape {
+  padding: 5px 20px;
+}
+
+.defense {
+  padding: 5px 20px;
+}
+
+.tool {
+  padding: 5px 20px;
+}
+
+/* ジャンケン */
+.janken {
+  display: none;
+}
+
+#janken {
+  border: solid;
+  border-color: #fff;
+  border-radius: 5px;
+  width: 200px;
+  height: 280px;
+  font-size: 40px;
+}
+
+.gu {
+  padding: 5px 20px;
+  color: #fff;
+}
+
+.cho {
+  padding: 5px 20px;
+  color: #fff;
+}
+
+.par {
+  padding: 5px 20px;
+  color: #fff;
+}
+
+.arrow1 {
+  color: #fff;
+}
+
+/* 薬草 */
+.herbs {
+  display: none;
+}
+
+#herbs {
+  border: solid;
+  border-color: #fff;
+  border-radius: 5px;
+  width: 200px;
+  height: 280px;
+  font-size: 40px;
+}
+
+#herb1,
+#herb2,
+#herb3,
+#arrow2 {
+  padding: 5px 20px;
+  color: #fff;
+}
+
+/* 実況 */
+.text {
+  border: solid;
+  border-color: #fff;
+  color: #fff;
+  border-radius: 5px;
+  width: 800px;
+  height: 280px;
+  font-size: 36px;
+}
+
+.text p {
+  width: 770px;
+  padding-left: 30px;
+  margin: 0;
+}
